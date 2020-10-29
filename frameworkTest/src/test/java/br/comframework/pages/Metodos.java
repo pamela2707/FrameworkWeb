@@ -1,5 +1,11 @@
 package br.comframework.pages;
 
-public class Metodos {
+import org.openqa.selenium.WebDriver;
 
+public class Metodos {
+	WebDriver driver;
+
+	public void navegador(String url, String navegador) {
+
+	}
 }
