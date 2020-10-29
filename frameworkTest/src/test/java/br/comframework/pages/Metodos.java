@@ -7,7 +7,8 @@ public class Metodos {
 	WebDriver driver;
 
 	public void navegador(String url, String navegador) {
-  System.setProperty("", "");
+  System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
+  
 
 	}
 }
